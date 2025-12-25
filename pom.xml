@@ -21,7 +21,9 @@
         <mapstruct.version>1.5.5.Final</mapstruct.version>
     </properties>
 
+    <groupId>com.revjobs</groupId>
     <artifactId>common-lib</artifactId>
+    <version>3.2.0</version>
     <name>Common Library</name>
     <description>Shared DTOs, Exceptions, and Utilities</description>
 
