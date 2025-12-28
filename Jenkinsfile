@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    triggers {
+        githubPush()
+    }
+
     tools {
         maven 'Maven 3' // Ensure this matches your Global Tool Configuration in Jenkins
         jdk 'JDK 17'    // Ensure this matches your Global Tool Configuration in Jenkins
